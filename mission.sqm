@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16997.252,46.400024,12656.463};
-		dir[]={0.62097973,-0.78261971,0.043852266};
-		up[]={0.78068,0.62249553,0.055129811};
-		aside[]={0.070443451,-2.7488568e-008,-0.99752921};
+		pos[]={17500.791,81.294983,13150.433};
+		dir[]={-0.55674559,-0.53305733,-0.63714164};
+		up[]={-0.35076678,0.84606087,-0.40141785};
+		aside[]={-0.75303864,-5.2154064e-008,0.65801662};
 	};
 };
 binarizationWanted=0;
@@ -27836,7 +27836,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="rhsusf_army_ocp_rifleman_m16 , rhsusf_army_ocp_machinegunnera , rhsusf_army_ocp_fso, rhsusf_army_ocp_rifleman_10th, rhsusf_army_ocp_autorifleman,  rhsusf_army_ocp_driver,  rhsusf_army_ocp_engineer,  rhsusf_army_ocp_medic";
+							value="rhsusf_army_ocp_rifleman_m16, rhsusf_army_ocp_machinegunnera, rhsusf_army_ocp_fso, rhsusf_army_ocp_rifleman_10th, rhsusf_army_ocp_autorifleman, rhsusf_army_ocp_driver,  rhsusf_army_ocp_engineer, rhsusf_army_ocp_medic";
 						};
 					};
 				};
@@ -28105,7 +28105,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={17017.916,15.277632,12663.417};
+						position[]={16999.164,16.379112,12850.416};
 					};
 					side="West";
 					flags=7;
@@ -28115,7 +28115,7 @@ class Mission
 					};
 					id=3919;
 					type="B_CTRG_soldier_AR_A_F";
-					atlOffset=-9.5367432e-007;
+					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28202,7 +28202,7 @@ class Mission
 			{
 			};
 			id=3918;
-			atlOffset=-9.5367432e-007;
+			atlOffset=1.9073486e-006;
 		};
 	};
 	class Connections
