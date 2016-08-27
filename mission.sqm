@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=3951;
+		nextID=3952;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={17500.791,81.294983,13150.433};
-		dir[]={-0.55674559,-0.53305733,-0.63714164};
-		up[]={-0.35076678,0.84606087,-0.40141785};
-		aside[]={-0.75303864,-5.2154064e-008,0.65801662};
+		pos[]={17447.072,40.539928,13029.056};
+		dir[]={0.52652061,-0.4013496,0.74946523};
+		up[]={0.23071627,0.91592419,0.32840836};
+		aside[]={0.81825912,-1.1641532e-009,-0.57485008};
 	};
 };
 binarizationWanted=0;
@@ -1657,11 +1657,11 @@ class Mission
 						};
 					};
 					id=771;
-					atlOffset=0.86274719;
+					atlOffset=4.099968;
 				};
 			};
 			id=758;
-			atlOffset=-78.770515;
+			atlOffset=-81.857559;
 		};
 		class Item1
 		{
@@ -4414,7 +4414,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="rhsusf_army_ocp_engineer,  rhsusf_army_ocp_medic";
+													value="rhsusf_army_ocp_engineer,rhsusf_army_ocp_medic";
 												};
 											};
 										};
@@ -10214,7 +10214,7 @@ class Mission
 								};
 							};
 							id=764;
-							atlOffset=185.97;
+							atlOffset=-21.903915;
 						};
 						class Item1
 						{
@@ -14236,7 +14236,7 @@ class Mission
 						};
 					};
 					id=763;
-					atlOffset=-23.27792;
+					atlOffset=-13.743279;
 				};
 				class Item2
 				{
@@ -14250,7 +14250,7 @@ class Mission
 				};
 			};
 			id=768;
-			atlOffset=-100.02335;
+			atlOffset=-32.175312;
 		};
 		class Item2
 		{
@@ -25040,7 +25040,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=2;
 						};
 					};
 				};
@@ -25097,7 +25097,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="rhsusf_army_ocp_rifleman_m16 , rhsusf_army_ocp_machinegunnera , rhsusf_army_ocp_fso";
+							value="rhsusf_army_ocp_rifleman_m16,rhsusf_army_ocp_machinegunnera,rhsusf_army_ocp_fso";
 						};
 					};
 				};
@@ -27754,97 +27754,6 @@ class Mission
 		};
 		class Item300
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={17458.887,16.598419,13073.773};
-			};
-			id=3892;
-			type="unitSpawner";
-			atlOffset=1.085001;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="unitSpawner_Count";
-					expression="_this setVariable ['Count',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=8;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="unitSpawner_Respawn";
-					expression="_this setVariable ['Respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=60;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="unitSpawner_Skill";
-					expression="_this setVariable ['Skill',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.60000002;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="unitSpawner_Units";
-					expression="_this setVariable ['Units',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="rhsusf_army_ocp_rifleman_m16, rhsusf_army_ocp_machinegunnera, rhsusf_army_ocp_fso, rhsusf_army_ocp_rifleman_10th, rhsusf_army_ocp_autorifleman, rhsusf_army_ocp_driver,  rhsusf_army_ocp_engineer, rhsusf_army_ocp_medic";
-						};
-					};
-				};
-				nAttributes=4;
-			};
-		};
-		class Item301
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -27860,7 +27769,7 @@ class Mission
 			type="O_T_Truck_03_covered_ghex_F";
 			atlOffset=-0.0098514557;
 		};
-		class Item302
+		class Item301
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -27933,7 +27842,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item303
+		class Item302
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -28005,7 +27914,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item304
+		class Item303
 		{
 			dataType="Object";
 			class PositionInfo
@@ -28021,7 +27930,7 @@ class Mission
 			id=3916;
 			type="Land_HelipadSquare_F";
 		};
-		class Item305
+		class Item304
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -28093,7 +28002,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item306
+		class Item305
 		{
 			dataType="Group";
 			side="West";
@@ -28105,7 +28014,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16999.164,16.379112,12850.416};
+						position[]={17468.932,15.541062,13076.643};
 					};
 					side="West";
 					flags=7;
@@ -28115,7 +28024,7 @@ class Mission
 					};
 					id=3919;
 					type="B_CTRG_soldier_AR_A_F";
-					atlOffset=1.9073486e-006;
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28202,7 +28111,18 @@ class Mission
 			{
 			};
 			id=3918;
-			atlOffset=1.9073486e-006;
+			atlOffset=-9.5367432e-007;
+		};
+		class Item306
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={17458.887,16.598419,13073.773};
+			};
+			id=3951;
+			type="selectiveArsenal";
+			atlOffset=1.085001;
 		};
 	};
 	class Connections
