@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=855;
+		nextID=920;
 	};
 	class Camera
 	{
-		pos[]={21915.742,31.133429,20932.73};
+		pos[]={22097.088,135.85808,20855.947};
 		dir[]={-0.8438741,-0.48707613,0.22510943};
 		up[]={-0.47063479,0.87334746,0.12554614};
 		aside[]={0.25774872,-4.0167652e-007,0.96623439};
@@ -714,7 +714,45 @@ class Mission
 						};
 					};
 				};
-				nAttributes=3;
+				class Attribute3
+				{
+					property="equipmentSpawner_BoxClass";
+					expression="_this setVariable ['BoxClass',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="equipmentSpawner_Init";
+					expression="_this setVariable ['Init',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item3
@@ -786,7 +824,45 @@ class Mission
 						};
 					};
 				};
-				nAttributes=3;
+				class Attribute3
+				{
+					property="equipmentSpawner_BoxClass";
+					expression="_this setVariable ['BoxClass',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="equipmentSpawner_Init";
+					expression="_this setVariable ['Init',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item4
@@ -801,15 +877,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={17563.203,24.664906,12941.664};
+						position[]={17563.203,24.664904,12941.664};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						name="s0";
+						isPlayer=1;
 					};
 					id=3919;
 					type="B_CTRG_soldier_AR_A_F";
+					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -896,11 +975,12 @@ class Mission
 			{
 			};
 			id=3918;
+			atlOffset=-1.9073486e-006;
 		};
 		class Item5
 		{
 			dataType="Layer";
-			name="EquipmentSporningCompositions";
+			name="EE_Script_Modules";
 			class Entities
 			{
 				items=8;
@@ -1315,7 +1395,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item7
@@ -1829,7 +1947,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item19
@@ -2049,7 +2205,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item3
@@ -2367,7 +2561,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item9
@@ -2515,7 +2747,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item4
@@ -2893,7 +3163,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item9
@@ -3458,7 +3766,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 							};
@@ -3653,7 +3999,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item8
@@ -4217,7 +4601,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item10
@@ -4723,7 +5145,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 							};
@@ -5014,7 +5474,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item10
@@ -5035,11 +5533,11 @@ class Mission
 								};
 							};
 							id=4017;
-							atlOffset=0.30681992;
+							atlOffset=0.30698776;
 						};
 					};
 					id=3953;
-					atlOffset=12.499474;
+					atlOffset=12.498796;
 				};
 				class Item1
 				{
@@ -5264,7 +5762,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item5
@@ -5625,7 +6161,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 							};
@@ -5856,7 +6430,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item5
@@ -6208,7 +6820,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item6
@@ -6485,7 +7135,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item7
@@ -6859,7 +7547,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item8
@@ -6895,6 +7621,25 @@ class Mission
 										};
 										class Attribute1
 										{
+											property="unitSpawner_Units";
+											expression="_this setVariable ['Units',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="rhsusf_army_ocp_engineer,rhsusf_army_ocp_medic";
+												};
+											};
+										};
+										class Attribute2
+										{
 											property="unitSpawner_Respawn";
 											expression="_this setVariable ['Respawn',_value,true];";
 											class Value
@@ -6912,7 +7657,7 @@ class Mission
 												};
 											};
 										};
-										class Attribute2
+										class Attribute3
 										{
 											property="unitSpawner_Skill";
 											expression="_this setVariable ['Skill',_value,true];";
@@ -6931,10 +7676,10 @@ class Mission
 												};
 											};
 										};
-										class Attribute3
+										class Attribute4
 										{
-											property="unitSpawner_Units";
-											expression="_this setVariable ['Units',_value,true];";
+											property="unitSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
 											class Value
 											{
 												class data
@@ -6946,11 +7691,30 @@ class Mission
 															"STRING"
 														};
 													};
-													value="rhsusf_army_ocp_engineer,rhsusf_army_ocp_medic";
+													value="";
 												};
 											};
 										};
-										nAttributes=4;
+										class Attribute5
+										{
+											property="unitSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=6;
 									};
 								};
 								class Item9
@@ -7120,7 +7884,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item3
@@ -8811,7 +9613,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item39
@@ -8883,7 +9723,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item40
@@ -8955,7 +9833,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 							};
@@ -9306,7 +10222,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item8
@@ -9713,7 +10667,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item9
@@ -9860,7 +10852,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item3
@@ -10209,7 +11239,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item3
@@ -10530,7 +11598,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 							};
@@ -10866,7 +11972,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item7
@@ -11180,7 +12324,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item5
@@ -11351,7 +12533,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item1
@@ -11451,7 +12671,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item1
@@ -11582,7 +12840,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item3
@@ -11815,7 +13111,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item9
@@ -11925,7 +13259,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item1
@@ -11942,25 +13314,6 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="vehicleSpawner_Range";
-											expression="_this setVariable ['Range',_value,true];";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=5;
-												};
-											};
-										};
-										class Attribute1
-										{
 											property="vehicleSpawner_Type";
 											expression="_this setVariable ['Type',_value,true];";
 											class Value
@@ -11975,6 +13328,25 @@ class Mission
 														};
 													};
 													value="vehicle";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="vehicleSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
 												};
 											};
 										};
@@ -11997,7 +13369,26 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="vehicleSpawner_Range";
+											expression="_this setVariable ['Range',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=5;
+												};
+											};
+										};
+										nAttributes=4;
 									};
 								};
 								class Item2
@@ -12034,6 +13425,25 @@ class Mission
 										};
 										class Attribute1
 										{
+											property="unitSpawner_Units";
+											expression="_this setVariable ['Units',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="rhsusf_army_ocp_autorifleman, rhsusf_army_ocp_driver";
+												};
+											};
+										};
+										class Attribute2
+										{
 											property="unitSpawner_Respawn";
 											expression="_this setVariable ['Respawn',_value,true];";
 											class Value
@@ -12051,7 +13461,7 @@ class Mission
 												};
 											};
 										};
-										class Attribute2
+										class Attribute3
 										{
 											property="unitSpawner_Skill";
 											expression="_this setVariable ['Skill',_value,true];";
@@ -12070,10 +13480,10 @@ class Mission
 												};
 											};
 										};
-										class Attribute3
+										class Attribute4
 										{
-											property="unitSpawner_Units";
-											expression="_this setVariable ['Units',_value,true];";
+											property="unitSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
 											class Value
 											{
 												class data
@@ -12085,11 +13495,30 @@ class Mission
 															"STRING"
 														};
 													};
-													value="rhsusf_army_ocp_autorifleman, rhsusf_army_ocp_driver";
+													value="";
 												};
 											};
 										};
-										nAttributes=4;
+										class Attribute5
+										{
+											property="unitSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=6;
 									};
 								};
 							};
@@ -12137,6 +13566,25 @@ class Mission
 										};
 										class Attribute1
 										{
+											property="unitSpawner_Units";
+											expression="_this setVariable ['Units',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="rhsusf_army_ocp_rifleman_10th";
+												};
+											};
+										};
+										class Attribute2
+										{
 											property="unitSpawner_Respawn";
 											expression="_this setVariable ['Respawn',_value,true];";
 											class Value
@@ -12154,7 +13602,7 @@ class Mission
 												};
 											};
 										};
-										class Attribute2
+										class Attribute3
 										{
 											property="unitSpawner_Skill";
 											expression="_this setVariable ['Skill',_value,true];";
@@ -12173,10 +13621,10 @@ class Mission
 												};
 											};
 										};
-										class Attribute3
+										class Attribute4
 										{
-											property="unitSpawner_Units";
-											expression="_this setVariable ['Units',_value,true];";
+											property="unitSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
 											class Value
 											{
 												class data
@@ -12188,11 +13636,30 @@ class Mission
 															"STRING"
 														};
 													};
-													value="rhsusf_army_ocp_rifleman_10th";
+													value="";
 												};
 											};
 										};
-										nAttributes=4;
+										class Attribute5
+										{
+											property="unitSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=6;
 									};
 								};
 								class Item1
@@ -12204,7 +13671,7 @@ class Mission
 									};
 									id=228;
 									type="equipmentSpawner";
-									atlOffset=0.625;
+									atlOffset=0.62500763;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -12264,12 +13731,50 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 							};
 							id=3965;
-							atlOffset=0.94062805;
+							atlOffset=0.94063568;
 						};
 						class Item2
 						{
@@ -12347,7 +13852,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item1
@@ -12419,7 +13962,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item2
@@ -12435,25 +14016,6 @@ class Mission
 									class CustomAttributes
 									{
 										class Attribute0
-										{
-											property="vehicleSpawner_Range";
-											expression="_this setVariable ['Range',_value,true];";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=5;
-												};
-											};
-										};
-										class Attribute1
 										{
 											property="vehicleSpawner_Type";
 											expression="_this setVariable ['Type',_value,true];";
@@ -12472,6 +14034,25 @@ class Mission
 												};
 											};
 										};
+										class Attribute1
+										{
+											property="vehicleSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
 										class Attribute2
 										{
 											property="vehicleSpawner_Level";
@@ -12491,7 +14072,26 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="vehicleSpawner_Range";
+											expression="_this setVariable ['Range',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=5;
+												};
+											};
+										};
+										nAttributes=4;
 									};
 								};
 								class Item3
@@ -12508,25 +14108,6 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="vehicleSpawner_Range";
-											expression="_this setVariable ['Range',_value,true];";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=2;
-												};
-											};
-										};
-										class Attribute1
-										{
 											property="vehicleSpawner_Type";
 											expression="_this setVariable ['Type',_value,true];";
 											class Value
@@ -12541,6 +14122,25 @@ class Mission
 														};
 													};
 													value="helicopter";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="vehicleSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
 												};
 											};
 										};
@@ -12563,7 +14163,26 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="vehicleSpawner_Range";
+											expression="_this setVariable ['Range',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
 									};
 								};
 								class Item4
@@ -12607,25 +14226,6 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="vehicleSpawner_Range";
-											expression="_this setVariable ['Range',_value,true];";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=5;
-												};
-											};
-										};
-										class Attribute1
-										{
 											property="vehicleSpawner_Type";
 											expression="_this setVariable ['Type',_value,true];";
 											class Value
@@ -12640,6 +14240,25 @@ class Mission
 														};
 													};
 													value="vehicle";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="vehicleSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
 												};
 											};
 										};
@@ -12662,7 +14281,26 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="vehicleSpawner_Range";
+											expression="_this setVariable ['Range',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=5;
+												};
+											};
+										};
+										nAttributes=4;
 									};
 								};
 							};
@@ -12745,7 +14383,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item1
@@ -12817,7 +14493,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item2
@@ -12834,25 +14548,6 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="vehicleSpawner_Range";
-											expression="_this setVariable ['Range',_value,true];";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=2;
-												};
-											};
-										};
-										class Attribute1
-										{
 											property="vehicleSpawner_Type";
 											expression="_this setVariable ['Type',_value,true];";
 											class Value
@@ -12867,6 +14562,25 @@ class Mission
 														};
 													};
 													value="vehicle";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="vehicleSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
 												};
 											};
 										};
@@ -12889,7 +14603,26 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="vehicleSpawner_Range";
+											expression="_this setVariable ['Range',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
 									};
 								};
 								class Item3
@@ -12925,6 +14658,25 @@ class Mission
 										};
 										class Attribute1
 										{
+											property="unitSpawner_Units";
+											expression="_this setVariable ['Units',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="rhsusf_army_ocp_rifleman_m16,rhsusf_army_ocp_machinegunnera,rhsusf_army_ocp_fso";
+												};
+											};
+										};
+										class Attribute2
+										{
 											property="unitSpawner_Respawn";
 											expression="_this setVariable ['Respawn',_value,true];";
 											class Value
@@ -12942,7 +14694,7 @@ class Mission
 												};
 											};
 										};
-										class Attribute2
+										class Attribute3
 										{
 											property="unitSpawner_Skill";
 											expression="_this setVariable ['Skill',_value,true];";
@@ -12961,10 +14713,10 @@ class Mission
 												};
 											};
 										};
-										class Attribute3
+										class Attribute4
 										{
-											property="unitSpawner_Units";
-											expression="_this setVariable ['Units',_value,true];";
+											property="unitSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
 											class Value
 											{
 												class data
@@ -12976,11 +14728,30 @@ class Mission
 															"STRING"
 														};
 													};
-													value="rhsusf_army_ocp_rifleman_m16,rhsusf_army_ocp_machinegunnera,rhsusf_army_ocp_fso";
+													value="";
 												};
 											};
 										};
-										nAttributes=4;
+										class Attribute5
+										{
+											property="unitSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=6;
 									};
 								};
 							};
@@ -14047,25 +15818,6 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="vehicleSpawner_Range";
-											expression="_this setVariable ['Range',_value,true];";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-										};
-										class Attribute1
-										{
 											property="vehicleSpawner_Type";
 											expression="_this setVariable ['Type',_value,true];";
 											class Value
@@ -14080,6 +15832,25 @@ class Mission
 														};
 													};
 													value="boat";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="vehicleSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
 												};
 											};
 										};
@@ -14102,7 +15873,26 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="vehicleSpawner_Range";
+											expression="_this setVariable ['Range',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=1;
+												};
+											};
+										};
+										nAttributes=4;
 									};
 								};
 								class Item64
@@ -14202,7 +15992,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item1
@@ -14231,25 +16059,6 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="vehicleSpawner_Range";
-											expression="_this setVariable ['Range',_value,true];";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=5;
-												};
-											};
-										};
-										class Attribute1
-										{
 											property="vehicleSpawner_Type";
 											expression="_this setVariable ['Type',_value,true];";
 											class Value
@@ -14264,6 +16073,25 @@ class Mission
 														};
 													};
 													value="vehicle";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="vehicleSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
 												};
 											};
 										};
@@ -14286,22 +16114,7 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
-									};
-								};
-								class Item3
-								{
-									dataType="Logic";
-									class PositionInfo
-									{
-										position[]={17533.813,13.267453,13223.424};
-										angles[]={0.014664836,0,0.015998369};
-									};
-									id=3908;
-									type="vehicleSpawner";
-									class CustomAttributes
-									{
-										class Attribute0
+										class Attribute3
 										{
 											property="vehicleSpawner_Range";
 											expression="_this setVariable ['Range',_value,true];";
@@ -14320,7 +16133,22 @@ class Mission
 												};
 											};
 										};
-										class Attribute1
+										nAttributes=4;
+									};
+								};
+								class Item3
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={17533.813,13.267453,13223.424};
+										angles[]={0.014664836,0,0.015998369};
+									};
+									id=3908;
+									type="vehicleSpawner";
+									class CustomAttributes
+									{
+										class Attribute0
 										{
 											property="vehicleSpawner_Type";
 											expression="_this setVariable ['Type',_value,true];";
@@ -14336,6 +16164,25 @@ class Mission
 														};
 													};
 													value="helicopter";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="vehicleSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
 												};
 											};
 										};
@@ -14358,7 +16205,26 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="vehicleSpawner_Range";
+											expression="_this setVariable ['Range',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=5;
+												};
+											};
+										};
+										nAttributes=4;
 									};
 								};
 								class Item4
@@ -14421,6 +16287,25 @@ class Mission
 										};
 										class Attribute1
 										{
+											property="unitSpawner_Units";
+											expression="_this setVariable ['Units',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="rhsusf_army_ocp_aa, rhsusf_army_ocp_javelin";
+												};
+											};
+										};
+										class Attribute2
+										{
 											property="unitSpawner_Respawn";
 											expression="_this setVariable ['Respawn',_value,true];";
 											class Value
@@ -14438,7 +16323,7 @@ class Mission
 												};
 											};
 										};
-										class Attribute2
+										class Attribute3
 										{
 											property="unitSpawner_Skill";
 											expression="_this setVariable ['Skill',_value,true];";
@@ -14457,10 +16342,10 @@ class Mission
 												};
 											};
 										};
-										class Attribute3
+										class Attribute4
 										{
-											property="unitSpawner_Units";
-											expression="_this setVariable ['Units',_value,true];";
+											property="unitSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
 											class Value
 											{
 												class data
@@ -14472,11 +16357,30 @@ class Mission
 															"STRING"
 														};
 													};
-													value="rhsusf_army_ocp_aa, rhsusf_army_ocp_javelin";
+													value="";
 												};
 											};
 										};
-										nAttributes=4;
+										class Attribute5
+										{
+											property="unitSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=6;
 									};
 								};
 								class Item1
@@ -15157,7 +17061,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 							};
@@ -15383,7 +17325,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item2
@@ -16371,7 +18351,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item2
@@ -17285,7 +19303,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item8
@@ -17357,7 +19413,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item9
@@ -17429,7 +19523,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item10
@@ -19806,7 +21938,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item3
@@ -20608,7 +22778,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item2
@@ -21323,7 +23531,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item4
@@ -21873,7 +24119,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item2
@@ -22494,7 +24778,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item4
@@ -23244,7 +25566,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item2
@@ -23428,7 +25788,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item2
@@ -24042,7 +26440,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item10
@@ -24993,7 +27429,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item11
@@ -25328,7 +27802,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item6
@@ -25700,7 +28212,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 								class Item5
@@ -27091,7 +29641,45 @@ class Mission
 												};
 											};
 										};
-										nAttributes=3;
+										class Attribute3
+										{
+											property="equipmentSpawner_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="equipmentSpawner_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=5;
 									};
 								};
 							};
@@ -27104,7 +29692,7 @@ class Mission
 				};
 			};
 			id=3952;
-			atlOffset=13.002562;
+			atlOffset=13.00259;
 		};
 		class Item6
 		{
@@ -27292,7 +29880,7 @@ class Mission
 					};
 					id=57;
 					type="Land_Wreck_Heli_Attack_01_F";
-					atlOffset=0.50968122;
+					atlOffset=0.50968146;
 				};
 				class Item4
 				{
