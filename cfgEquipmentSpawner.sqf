@@ -4,7 +4,7 @@ EE_Scripts_es_weapon = [
     [["arifle_Mk20_plain_F"]], //Level 1
     [], //Level 2
     [["LMG_mas_m72_F"]], //Level 3
-    [["srifle_mas_sr25_v"]], //Level 4
+    [], //Level 4
     [["arifle_MX_F","arifle_MX_Black_F"],["arifle_MXC_F","arifle_MXC_Black_F"]], //Level 5
     [["srifle_DMR_01_F"]], //Level 6
     [["hgun_P07_F"],["mas_launch_RPG7_F"]], //Level 7
