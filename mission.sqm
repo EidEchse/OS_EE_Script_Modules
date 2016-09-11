@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=920;
+		nextID=985;
 	};
 	class Camera
 	{
@@ -3483,7 +3483,7 @@ class Mission
 											};
 											id=3026;
 											type="I_C_Soldier_Bandit_4_F";
-											atlOffset=0.34223747;
+											atlOffset=0.95516968;
 										};
 										class Item1
 										{
@@ -3494,13 +3494,14 @@ class Mission
 												angles[]={0,0.2943404,0};
 											};
 											side="Independent";
-											flags=5;
+											flags=1;
 											class Attributes
 											{
 												skill=0.40000001;
 											};
 											id=3027;
 											type="I_C_Soldier_Bandit_3_F";
+											atlOffset=4.3111382;
 										};
 										class Item2
 										{
@@ -3518,7 +3519,7 @@ class Mission
 											};
 											id=3028;
 											type="I_C_Soldier_Bandit_5_F";
-											atlOffset=0.34936142;
+											atlOffset=0.82283401;
 										};
 										class Item3
 										{
@@ -3542,7 +3543,7 @@ class Mission
 									{
 									};
 									id=3025;
-									atlOffset=0.34223747;
+									atlOffset=0.95516968;
 								};
 								class Item6
 								{
@@ -3706,7 +3707,7 @@ class Mission
 									};
 									id=3036;
 									type="equipmentSpawner";
-									atlOffset=0.51449394;
+									atlOffset=0.95800209;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -3809,7 +3810,7 @@ class Mission
 								};
 							};
 							id=3988;
-							atlOffset=0.9831295;
+							atlOffset=1.1443214;
 						};
 						class Item7
 						{
@@ -4071,6 +4072,7 @@ class Mission
 									};
 									id=1106;
 									type="Land_Rack_F";
+									atlOffset=0.0017204285;
 								};
 								class Item10
 								{
@@ -4087,7 +4089,7 @@ class Mission
 									};
 									id=1107;
 									type="Land_Rack_F";
-									atlOffset=0.24212265;
+									atlOffset=0.0011291504;
 								};
 								class Item11
 								{
@@ -4155,7 +4157,7 @@ class Mission
 								};
 							};
 							id=3995;
-							atlOffset=0.61338043;
+							atlOffset=0.61328506;
 						};
 						class Item8
 						{
@@ -5537,7 +5539,7 @@ class Mission
 						};
 					};
 					id=3953;
-					atlOffset=12.498796;
+					atlOffset=12.498812;
 				};
 				class Item1
 				{
@@ -12141,6 +12143,7 @@ class Mission
 											};
 											id=2747;
 											type="I_C_Soldier_Bandit_6_F";
+											atlOffset=0.17934608;
 										};
 										class Item1
 										{
@@ -12150,13 +12153,14 @@ class Mission
 												position[]={22650.807,17.358212,16856.553};
 											};
 											side="Independent";
-											flags=5;
+											flags=1;
 											class Attributes
 											{
 												skill=0.40000001;
 											};
 											id=2748;
 											type="I_C_Soldier_Bandit_2_F";
+											atlOffset=4.407856;
 										};
 										class Item2
 										{
@@ -12197,6 +12201,7 @@ class Mission
 									{
 									};
 									id=2746;
+									atlOffset=0.17934608;
 								};
 								class Item2
 								{
@@ -13438,7 +13443,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="rhsusf_army_ocp_autorifleman, rhsusf_army_ocp_driver";
+													value="rhsusf_army_ocp_autorifleman,rhsusf_army_ocp_driver";
 												};
 											};
 										};
@@ -16043,6 +16048,48 @@ class Mission
 									id=3951;
 									type="selectiveArsenal";
 									atlOffset=1.085001;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="selectiveArsenal_BoxClass";
+											expression="_this setVariable ['BoxClass',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="selectiveArsenal_Init";
+											expression="_this setVariable ['Init',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										nAttributes=2;
+									};
 								};
 								class Item2
 								{
