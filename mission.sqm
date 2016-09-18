@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1143;
+		nextID=1216;
 	};
 	class Camera
 	{
-		pos[]={19334.563,197.71419,9538.873};
+		pos[]={19368.811,511.34781,9189.4424};
 		dir[]={0,-0.70710683,0.70710683};
 		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		aside[]={0.99999994,0,0};
 	};
 };
 binarizationWanted=0;
@@ -872,7 +872,7 @@ class Mission
 		class Item4
 		{
 			dataType="Layer";
-			name="EquipmentSporningCompositions";
+			name="EE_Script_Modules";
 			class Entities
 			{
 				items=8;
@@ -3375,7 +3375,7 @@ class Mission
 											};
 											id=3026;
 											type="I_C_Soldier_Bandit_4_F";
-											atlOffset=0.34223747;
+											atlOffset=0.95516968;
 										};
 										class Item1
 										{
@@ -3386,13 +3386,14 @@ class Mission
 												angles[]={0,0.2943404,0};
 											};
 											side="Independent";
-											flags=5;
+											flags=1;
 											class Attributes
 											{
 												skill=0.40000001;
 											};
 											id=3027;
 											type="I_C_Soldier_Bandit_3_F";
+											atlOffset=4.3111382;
 										};
 										class Item2
 										{
@@ -3410,7 +3411,7 @@ class Mission
 											};
 											id=3028;
 											type="I_C_Soldier_Bandit_5_F";
-											atlOffset=0.34936142;
+											atlOffset=0.82283401;
 										};
 										class Item3
 										{
@@ -3434,7 +3435,7 @@ class Mission
 									{
 									};
 									id=3025;
-									atlOffset=0.34223747;
+									atlOffset=0.95516968;
 								};
 								class Item6
 								{
@@ -3598,7 +3599,7 @@ class Mission
 									};
 									id=3036;
 									type="equipmentSpawner";
-									atlOffset=0.51449394;
+									atlOffset=0.95800209;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -3701,7 +3702,7 @@ class Mission
 								};
 							};
 							id=3988;
-							atlOffset=0.9831295;
+							atlOffset=1.1443214;
 						};
 						class Item7
 						{
