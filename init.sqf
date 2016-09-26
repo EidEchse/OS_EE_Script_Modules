@@ -1,7 +1,4 @@
-0 = [] execVM "config\cfgVehicleSpawner.sqf";
-0 = [] execVM "config\cfgSelectiveArsenal.sqf";
-0 = [] execVM "config\cfgEquipmentSpawner.sqf";
-0 = [] execVM "config\cfgReloadingAmmobox.sqf";
+0 = [] execVM "OS_Sc\init.sqf";
 
 /*EE_Scripts_us_debug = "DEBUG";*/
 /*EE_Scripts_vr_debug = "DEBUG";*/
