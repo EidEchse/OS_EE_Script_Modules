@@ -1,4 +1,4 @@
-0 = [] execVM "OS_Sc\init.sqf";
+0 = [] execVM "OS_Scripts\init.sqf";
 
 /*EE_Scripts_us_debug = "DEBUG";*/
 /*EE_Scripts_vr_debug = "DEBUG";*/
